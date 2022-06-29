@@ -1,10 +1,12 @@
 {% extends "layouts/base.html" %} 
 
+{% set title = "Hi, I'm Dave" %}
+
 {% block hero %}
 <section class="hero">
   <div class="wrapper">
     <div class="hero--wrapper">
-      <h1 class="hero__header">Hi, I'm Dave</h1>
+      <h1 class="hero__header">{{ title }}</h1>
       <p class="intro intro--bold">Interaction / UX designer</p>
       <p class="intro no-margin">I enjoy solving complex problems using design, research and technology to deliver products that meet user and business needs.</p>
     </div>
