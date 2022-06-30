@@ -14,7 +14,7 @@ ul.card-group {
 }
 
 .card {
-  margin-bottom: get-size('500');
+  margin-bottom: get-size('400');
 
   @include media-query('sm') {
     margin-bottom: get-size('700');
