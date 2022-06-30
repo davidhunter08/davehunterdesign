@@ -3,7 +3,7 @@
   margin-top: -4px;
   padding: get-size('800') 0;
 
-  @include media-query('sm') {
+  @include media-query('md') {
     padding: get-size('major') 0;
   }
 

@@ -98,8 +98,8 @@ h4 {
   background: get-color('light-glare');
   padding: get-size('700') 0;
 
-  @include media-query('sm') {
-    padding: get-size('800') 0;
+  @include media-query('md') {
+    padding: get-size('900') 0;
   }
 }
 
