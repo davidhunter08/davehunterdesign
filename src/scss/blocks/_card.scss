@@ -9,7 +9,7 @@ ul.card-group {
 
   @include media-query('md') {
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: get-size('400');
+    margin-bottom: 0;
   }
 }
 
