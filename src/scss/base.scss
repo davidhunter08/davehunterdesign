@@ -112,7 +112,7 @@ a {
   &:hover {
     color: get-color('primary-shade');
     text-decoration: underline;
-    text-decoration-thickness: 0.15em;
+    text-decoration-thickness: 0.25rem;
   }
 }
 
@@ -285,6 +285,14 @@ p + h2 {
 }
 
 .section-heading {
+  margin-bottom: get-size('600');
+
+  @include media-query('md') {
+    margin-bottom: get-size('700');
+  }
+}
+
+.back-link {
   margin-bottom: get-size('600');
 
   @include media-query('md') {
