@@ -9,6 +9,11 @@
       "url": "/writing/"
     },
     {
+      "text": "About",
+      "url": "/about/"
+    }
+    ,
+    {
       "text": "Contact",
       "url": "/contact/"
     }
