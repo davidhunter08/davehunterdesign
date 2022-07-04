@@ -16,7 +16,7 @@ ul.card-group {
 .card {
   margin-bottom: get-size('400');
 
-  @include media-query('md') {
+  @include media-query('lg') {
     margin-bottom: get-size('700');
   }
 }
@@ -24,7 +24,7 @@ ul.card-group {
 .card__img {
   margin-bottom: get-size('300');
 
-  @include media-query('md') {
+  @include media-query('lg') {
     margin-bottom: get-size('500');
   }
 }
