@@ -192,6 +192,10 @@ p {
   }
 }
 
+.list-intro {
+  margin-bottom: 0;
+}
+
 ul.list-group {
   margin-bottom: get-size('800');
   padding-top: get-size('400');
