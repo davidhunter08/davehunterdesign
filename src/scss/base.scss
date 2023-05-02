@@ -256,6 +256,15 @@ ul.list-group {
   }
 }
 
+.work__img--border {
+  border: 4px solid get-color('light-shade');
+  margin-bottom: get-size('500');
+
+  @include media-query('md') {
+    margin-bottom: get-size('600');
+  }
+}
+
 .fig {
   margin-bottom: get-size('500');
 
