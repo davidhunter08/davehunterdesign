@@ -146,13 +146,18 @@ h3 {
   }
 }
 
-p {
+p, .list {
   margin-bottom: get-size('600');
   max-width: 44rem;
 
   + h2 {
     padding-top: get-size('600');
   }
+}
+
+ul.list {
+  list-style: disc;
+  padding-left: 1rem;
 }
 
 .secondary-text {
