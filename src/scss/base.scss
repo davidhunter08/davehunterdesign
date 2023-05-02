@@ -316,3 +316,17 @@ p + h2 {
 .reading-width {
   max-width: 44rem;
 }
+
+// work details
+
+.work__details {
+  margin-bottom: get-size('600');
+
+  @include media-query('md') {
+    margin-bottom: get-size('700');
+  }
+}
+
+.work__details p {
+  margin-bottom: 0;
+}
