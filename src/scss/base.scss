@@ -157,6 +157,7 @@ p, .list {
 
 ul.list {
   list-style: disc;
+  margin-bottom: get-size('600');
   padding-left: 1rem;
 }
 
