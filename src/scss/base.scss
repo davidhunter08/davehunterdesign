@@ -235,6 +235,7 @@ ul.list-group {
 
 .work__img {
   margin-bottom: get-size('600');
+  width: 100%;
 
   @include media-query('md') {
     margin-bottom: get-size('700');
