@@ -368,3 +368,15 @@ p + h2 {
   bottom: -14px;
   left: 0;
 }
+
+// Section
+
+.section {
+  background: get-color('light-shade');
+  border-bottom: 4px solid white;
+  padding: get-size('700') 0;
+
+  @include media-query('md') {
+    padding: get-size('900') 0;
+  }
+}
