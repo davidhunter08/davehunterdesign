@@ -303,6 +303,14 @@ p + h2 {
   }
 }
 
+h2 + .card-group {
+  padding-top: get-size('400');
+
+  @include media-query('md') {
+    padding-top: get-size('500');
+  }
+}
+
 .section-heading {
   margin-bottom: get-size('600');
 
