@@ -1,12 +1,9 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/content.html" %} 
 
 {% set title = "NHS digital service manual" %}
 
-{% block mainInner %}
+{% block content %}
 
-<div class="wrapper">
-
-  <h1 class="work__header">{{ title }}</h1>
   <p class="intro work__description">Building a design system for the NHS.</p>
 
   <img class="work__img" src="/images/work/nhs-service-manual.png" alt="">
@@ -44,7 +41,5 @@
   <p>Additionally, I helped create the NHS community backlog, a place for teams building NHS or other health and care services to work together.</p>
 
   <p>During my time at NHS, I promoted open collaboration, accessibility, and inclusion in design. I worked closely with the design community to advance these initiatives, and I'm proud of the significant impact we achieved. I'm excited about the future potential of the NHS digital service manual, as highlighted in <a href="https://deanvipond.medium.com/a-short-ish-history-of-the-nhs-design-system-part-6-2022-where-next-d3cfc303c2a3">a Medium blog post by my former colleague, Dean Vipond</a>.</p>
-  
-</div>
 
 {% endblock %}

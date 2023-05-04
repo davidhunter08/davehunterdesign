@@ -1,12 +1,8 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/content.html" %} 
 
 {% set title = "Biodiversity Net Gain Register - Alpha" %}
 
-{% block mainInner %}
-
-<div class="wrapper">
-
-  <h1 class="work__header">{{ title }}</h1>
+{% block content %}
   <p class="intro work__description">Interaction design for a new Biodiversity Net Gain Register, advancing nature's recovery by supporting housing development and increasing habitats across England by 10%. </p>
 
   <img class="work__img" src="/images/work/bng.png" alt="">
@@ -51,7 +47,5 @@
     <img class="fig__img" src="/images/work/bng/bng-mission-patches.png" alt="">
     <figcaption class="fig__caption">A set of mission patches I designed for the service.</figcaption>
   </figure>
-
-</div>
 
 {% endblock %}

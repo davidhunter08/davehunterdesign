@@ -336,3 +336,35 @@ p + h2 {
 .work__details p {
   margin-bottom: 0;
 }
+
+.back-link {
+  display: inline-block;
+  position: relative;
+  padding-left: 0.85rem;
+}
+
+// Prepend left pointing chevron
+.back-link:before {
+  content: "";
+  display: block;
+  bottom: 0;
+  position: absolute;
+  left: 0.1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: auto 0;
+  top: 0;
+  transform: rotate(225deg);
+  border: solid;
+  border-width: 2px 2px 0 0;
+  border-color: get-color('secondary');
+}
+
+.back-link:after {
+  content: "";
+  position: absolute;
+  top: -14px;
+  right: 0;
+  bottom: -14px;
+  left: 0;
+}

@@ -1,12 +1,9 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/content.html" %} 
 
 {% set title = "Leeds City Council Website" %}
 
-{% block mainInner %}
+{% block content %}
 
-<div class="wrapper">
-
-  <h1 class="work__header">{{ title }}</h1>
   <p class="intro work__description">Redesigning leeds.gov.uk in a user-centered way.</p>
 
   <img class="work__img" src="/images/work/lcc.png" alt="">
@@ -22,7 +19,5 @@
   <img class="work__img--border" src="/images/work/lcc/card-sorting.png" alt="">
   <img class="work__img--border" src="/images/work/lcc/tree-testing.png" alt="">
   <img class="work__img--border" src="/images/work/lcc/wireframes.png" alt="">
-  
-</div>
 
 {% endblock %}
