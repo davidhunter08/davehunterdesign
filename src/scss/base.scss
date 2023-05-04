@@ -387,4 +387,8 @@ h2 + .card-group {
   @include media-query('md') {
     padding: get-size('900') 0;
   }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
