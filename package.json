@@ -2,7 +2,7 @@
   "name": "davehunterdesign",
   "version": "1.0.0",
   "engines": {
-    "node": "14.17.1"
+    "node": ">=14.17.1"
   },
   "description": "",
   "main": ".eleventy.js",
@@ -21,7 +21,7 @@
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.58.3"
   }
 }
